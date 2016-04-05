@@ -1,0 +1,18 @@
+death_smiles:
+    path: /deathsmiles
+    defaults:  { _controller: LeaderboardBundle:Pink:deathsmiles}
+
+mushi_himesama:
+    path: /mushihimesama
+    defaults:  { _controller: LeaderboardBundle:Pink:mushihimesama}
+
+crimzon_clov:
+    path: /crimzon_clover/{type}
+    defaults:  { _controller:LeaderboardBundle:NotPink:crimzonclov:type[13Z]}
+
+ikaru:
+    path: /ikaruga/{color}
+    defaults:  { _controller: LeaderboardBundle:NotPink:ikaruga:color:black|white}
+
+
+

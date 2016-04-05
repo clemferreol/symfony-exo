@@ -1,0 +1,3 @@
+mushi_himesama:
+    path: /mushihimesama
+    defaults:  { _controller: LeaderboardBundle:Pink:mushihimesama}

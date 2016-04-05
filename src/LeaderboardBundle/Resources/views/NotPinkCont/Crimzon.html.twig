@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<a href="/mushihimesama">Mushihimesama</a>
+<a href="/deathsmiles">Deathsmiles</a>
+<a href="/ikaruga">Ikaruga</a>
+
+<a href="/crimzon_clover/type1">Type 1</a>
+<a href="/crimzon_clover/type3">Type 3</a>
+<a href="/crimzon_clover/typeZ">Type Z</a>
+
+{% if type is !defined %}
+    {{ type : Z}}
+
+{% else %}
+{% if type == 'type1' %}
+<video controls src="https://www.youtube.com/watch?v=bmTHw9vL3Vs"></video>
+{% elseif type == 'type3' %}
+<video controls src="https://www.youtube.com/watch?v=foDTJceKio8"></video>
+{% elseif type == 'typeZ' %}
+<video controls src="https://www.youtube.com/watch?v=dFgb1vrF-F8"></video>
+
+{% endif %}
+
+
+</body>
+</html>
